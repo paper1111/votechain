@@ -1,6 +1,5 @@
 defmodule Crypto do
 
-  # Specify which fields to hash in a block
   @hash_fields [:data, :timestamp, :prev_hash]
 
   def hash(%{} = block) do
